@@ -37,7 +37,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center mt-2 md:max-lg:flex-row ">
+      <div className="flex flex-col items-center justify-center mt-2 md:flex-row">
         <div className=" md:max-xl:w-1/2">
           <div className="w-[305px] h-[305px] rounded-full bg-iconic-green flex items-center justify-center">
             <Image
@@ -45,14 +45,15 @@ const AboutMe = () => {
               src="/profile.jpg"
               width="300"
               height="300"
+              className="rounded-full"
             />
           </div>
         </div>
-        <div className="p-2 md:max-xl:w-1/2 md:max-xl:p-4">
-          <p className="py-2 text-base md:max-xl:text-xl">{intro[0]}</p>
-          <p className="py-2 text-base md:max-xl:text-xl">{intro[1]}</p>
-          <p className="py-2 text-base md:max-xl:text-xl">{intro[3]}</p>
-          <p className="py-2 text-base md:max-xl:text-xl">{intro[4]}</p>
+        <div className="p-2 md:max-xl:w-1/2 md:p-10">
+          <p className="py-2 text-base md:text-xl">{intro[0]}</p>
+          <p className="py-2 text-base md:text-xl">{intro[1]}</p>
+          <p className="py-2 text-base md:text-xl">{intro[3]}</p>
+          <p className="py-2 text-base md:text-xl">{intro[4]}</p>
         </div>
       </div>
     </section>

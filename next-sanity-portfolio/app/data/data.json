@@ -17,15 +17,15 @@
       },
       {
         "name": "Skills",
-        "path": "/"
+        "path": "/skills"
       },
       {
         "name": "Blogs",
-        "path": "/"
+        "path": "/blogs"
       },
       {
         "name": "Future Learning Goals",
-        "path": "/"
+        "path": "/future-learning"
       }
     ],
     "resume": "Resume"
@@ -138,5 +138,12 @@
         "Github"
       ]
     }
-  ]
+  ],
+  "network": {
+    "email": "neelchikhal14@gmail.com",
+    "github": "https://github.com/neelchikhal14"
+  },
+  "footer": {
+    "title": "This website is built using NextJS"
+  }
 }

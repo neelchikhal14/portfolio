@@ -3,10 +3,15 @@
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import React, { useState } from "react";
 
+import { AiOutlineMail } from "react-icons/ai";
+import { BiDownload } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
 import Link from "next/link";
+import NetworkButton from "../NetworkButton/NetworkButton";
 import data from "../../data/data.json";
 
 const header = data.header;
+const network = data.network;
 
 const ThreeBarMenu = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -16,7 +21,7 @@ const ThreeBarMenu = () => {
   return (
     <>
       {openDrawer && (
-        <div className="bg-section-background w-6/12 h-screen absolute left-0 top-4 z-10 animate-threeBarMenuAnimate">
+        <div className="bg-section-background w-6/12 h-screen absolute left-0 top-3 z-10 animate-threeBarMenuAnimate">
           <div className="mt-2 flex flex-col justify-start pr-4">
             <div className="flex justify-end ">
               <button onClick={closeDrawer}>
@@ -40,6 +45,25 @@ const ThreeBarMenu = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div className="mt-10 pl-4">
+              <button className="h-10 bg-iconic-green rounded-full w-32 flex items-center justify-center  hover:bg-text-color hover:text-main-background md:w-52">
+                <BiDownload />
+                <a href="./Neel_Chikhal.pdf" download="Neel_Chikhal.pdf">
+                  <p className="px-1">{data.header.resume}</p>
+                </a>
+              </button>
+            </div>
+            <div className="flex justify-start pl-5 mt-5">
+              <NetworkButton
+                href={"mailto:" + network.email}
+                icon={<AiOutlineMail size={32} />}
+              />
+              <NetworkButton
+                href={network.github}
+                icon={<BsGithub size={32} />}
+                className="pl-4"
+              />
             </div>
           </div>
         </div>
