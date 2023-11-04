@@ -1,4 +1,4 @@
-import AboutMe from "./components/AboutMe/page";
+import AboutMe from "./components/AboutMe/AboutMe";
 import Image from "next/image";
 
 export default function Home() {

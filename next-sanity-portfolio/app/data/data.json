@@ -1,0 +1,142 @@
+{
+  "header": {
+    "name": {
+      "firstCharFN": "N",
+      "restFN": "eel",
+      "firstCharLN": "C",
+      "restLN": "hikhal"
+    },
+    "menu-items": [
+      {
+        "name": "About Me",
+        "path": "/"
+      },
+      {
+        "name": "Experience",
+        "path": "/experience"
+      },
+      {
+        "name": "Skills",
+        "path": "/"
+      },
+      {
+        "name": "Blogs",
+        "path": "/"
+      },
+      {
+        "name": "Future Learning Goals",
+        "path": "/"
+      }
+    ],
+    "resume": "Resume"
+  },
+  "about-me": {
+    "section-title-1": "A",
+    "section-title-2": "bout",
+    "section-title-3": "M",
+    "section-title-4": "e",
+    "headline": {
+      "part-1": {
+        "line-1": "Navigating Possibilities,",
+        "line-2": "One Line of Code at a time."
+      },
+      "part-2": "I craft delighful frontend experiences."
+    },
+    "introduction": [
+      "Hello there! I'm an engineer living in London.",
+      "Proficient in JavaScript and TypeScript, I've built a robust skill-set in web development to create seamless user experiences.",
+      "My engineering journey has been uniquely enriched by my Master's degree in computer science, alongside my experiences in both the banking and telecom domains, providing me with a distinctive perspective on real-world challenges.",
+      "I relish the opportunity to dive into uncharted territories, always seeking to broaden my knowledge and expand my horizons.",
+      "Beyond my love for technology, you'll often find me lost in the pages of a good book. I'm also an avid traveler, and a football enthusiast."
+    ]
+  },
+  "exp": [
+    {
+      "idx": 1,
+      "companyName": "Virtusa",
+      "client": "Lloyds Banking Group",
+      "position": "Software Engineer",
+      "fromDate": "Dec-2022",
+      "to": "Present",
+      "workDone": [
+        "Maintained seamless web experiences for three bank brands at Lloyds Banking Group, aligning with brand guidelines and user experience principles, serving over 20 million customers.",
+        "Reduced website load time by 20% by implementing advanced Webpack configurations, resulting in improved user experience and increased customer satisfaction.",
+        "Migrated legacy code to modern frameworks, improving code maintainability and reducing technical debt by 30%.",
+        "Trained and educated junior developers on the latest industry trends and best practices, enabling them to enhance their technical skills by 18%.",
+        "Contributed to the development and enhancement of a web SDK project to develop responsive web journeys, resulting in a 60% increase in lead delivery time.",
+        "Developed and executed a comprehensive plan to seamlessly integrate the bank's core banking system with a new open banking platform, resulting in a 40% increase in customer satisfaction and retention."
+      ],
+      "keySkills": [
+        "Javascript",
+        "Typescript",
+        "ReactJS",
+        "Webpack",
+        "Redux",
+        "Redux Sagas",
+        "Express",
+        "CSS",
+        "SASS",
+        "HTML",
+        "Jenkins",
+        "Git",
+        "Github",
+        "Docker",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    {
+      "idx": 2,
+      "companyName": "Purple Beard Limited",
+      "client": "N/A",
+      "position": "Frontend Developer",
+      "fromDate": "Apr-2022",
+      "to": "Dec-2022",
+      "workDone": [
+        "Actively involved in migration of Purple Beard’s website from WordPress to ReactJS with TypeScript and Sanity CMS.",
+        "Collaborated with cross-functional teams to identify and resolve bugs within the codebase, reducing the number of reported issues by 50% within three months.",
+        "Educated and developed skills in over 100 students in technologies, such as HTML5, CSS3, JavaScript, ReactJS, and Git."
+      ],
+      "keySkills": [
+        "Javascript",
+        "ReactJS",
+        "Sanity CMS",
+        "CSS",
+        "HTML",
+        "Jenkins",
+        "Git",
+        "Github"
+      ]
+    },
+    {
+      "idx": 3,
+      "companyName": "Tech Mahindra",
+      "client": "Bell Canada",
+      "position": "Frontend Developer",
+      "fromDate": "Feb-2017",
+      "to": "May-2021",
+      "workDone": [
+        "Re-wrote legacy codebase to incorporate React Hooks and replace class-based components, resulting in a 30% increase in code efficiency.",
+        "Engineered unit-tests employing Jest and React Testing library for the application, adhering to Test Driven Development (TDD) methodology and increasing test coverage by 5%.",
+        "Implemented WCAG 2.0 standards into front-end code, resulting in a 30% increase in website accessibility, measured through a comprehensive user testing process.",
+        "Collaborated with a team of 3 developers to practice pair programming and increase efficiency by 15%.",
+        "Developed and executed a comprehensive plan to integrate the React Internationalization library into the company's existing frontend framework, allowing for seamless support of French language alongside English.",
+        "Raised doubts and sought clarifications via frequent follow up meetings with the Business Analysts and Product Owner, ensuring that all business requirements were captured accurately."
+      ],
+      "keySkills": [
+        "Javascript",
+        "Typescript",
+        "ReactJS",
+        "Webpack",
+        "Redux",
+        "React i18next",
+        "CSS",
+        "SASS",
+        "HTML",
+        "Jenkins",
+        "Git",
+        "Github"
+      ]
+    }
+  ]
+}
