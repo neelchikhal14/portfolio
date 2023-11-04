@@ -10,8 +10,10 @@ const config: Config = {
     colors: {
       "main-background": "#000000",
       "text-color": "#FFFFFF",
+      "text-color-seondary": "#B3B3B3",
       "iconic-green": "#1ED760",
       "section-background": "#181818",
+      "section-background-secondary": "#242424",
       ...colors,
     },
     extend: {

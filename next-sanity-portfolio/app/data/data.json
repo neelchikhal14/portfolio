@@ -139,6 +139,108 @@
       ]
     }
   ],
+  "skills": {
+    "section-title-1": "S",
+    "section-title-2": "kills",
+    "skillList": [
+      {
+        "title": "Programming Languages",
+        "data": [
+          {
+            "path": "./javascript.svg",
+            "name": "Javascript"
+          },
+          {
+            "path": "./typescript.svg",
+            "name": "Typescript"
+          }
+        ]
+      },
+      {
+        "title": "Web Technologies and Frameworks",
+        "data": [
+          {
+            "path": "./react.svg",
+            "name": "ReactJS"
+          },
+          {
+            "path": "./nextjs.svg",
+            "name": "NextJS"
+          },
+          {
+            "path": "./node.svg",
+            "name": "NodeJS"
+          },
+          {
+            "path": "./webpack.svg",
+            "name": "Webpack"
+          },
+          {
+            "path": "./babel.svg",
+            "name": "Babel"
+          },
+          {
+            "path": "./express.svg",
+            "name": "Express"
+          },
+          {
+            "path": "./graphql.svg",
+            "name": "GraphQL"
+          },
+          {
+            "path": "./redux.svg",
+            "name": "Redux"
+          },
+          {
+            "path": "./jest.svg",
+            "name": "Jest"
+          },
+          {
+            "path": "./html.svg",
+            "name": "HTML"
+          },
+          {
+            "path": "./css.svg",
+            "name": "CSS"
+          },
+          {
+            "path": "./sass.svg",
+            "name": "SCSS"
+          }
+        ]
+      },
+      {
+        "title": "Database",
+        "data": [
+          {
+            "path": "./mongo.svg",
+            "name": "MongoDB"
+          }
+        ]
+      },
+      {
+        "title": "DevOps Tooling and Version Control",
+        "data": [
+          {
+            "path": "./git.svg",
+            "name": "Git"
+          },
+          {
+            "path": "./github.svg",
+            "name": "Github"
+          },
+          {
+            "path": "./jenkins.svg",
+            "name": "Jenkins"
+          },
+          {
+            "path": "./docker.svg",
+            "name": "Docker"
+          }
+        ]
+      }
+    ]
+  },
   "network": {
     "email": "neelchikhal14@gmail.com",
     "github": "https://github.com/neelchikhal14"
