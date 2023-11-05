@@ -10,7 +10,6 @@ const config: Config = {
     colors: {
       "main-background": "#000000",
       "text-color": "#FFFFFF",
-      "text-color-seondary": "#B3B3B3",
       "iconic-green": "#1ED760",
       "section-background": "#181818",
       "section-background-secondary": "#242424",
@@ -24,6 +23,7 @@ const config: Config = {
       },
       animation: {
         threeBarMenuAnimate: "threeBarMenuKF 0.5s ease-out",
+        smoothUnderlineAnimate: "smoothUnderlineKF 0.55s ease-in-out forwards",
       },
       keyframes: {
         threeBarMenuKF: {
@@ -32,6 +32,18 @@ const config: Config = {
           },
           "100%": {
             left: "0px",
+          },
+        },
+        smoothUnderlineKF: {
+          "0%": {
+            textDecorationColor: "transparent",
+            textDecorationLine: "none",
+          },
+          "100%": {
+            textDecorationColor: "#1ED760",
+            textDecorationLine: "underline",
+            textDecorationThickness: "1.5px",
+            textUnderlineOffset: "1.5px",
           },
         },
       },

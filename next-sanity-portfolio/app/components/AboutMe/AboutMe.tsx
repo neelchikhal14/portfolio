@@ -49,7 +49,7 @@ const AboutMe = () => {
             />
           </div>
         </div>
-        <div className="p-2 md:max-xl:w-1/2 md:p-10">
+        <div className="p-2 md:max-xl:w-1/2 md:p-10 xl:p-24">
           <p className="py-2 text-base md:text-xl">{intro[0]}</p>
           <p className="py-2 text-base md:text-xl">{intro[1]}</p>
           <p className="py-2 text-base md:text-xl">{intro[3]}</p>
