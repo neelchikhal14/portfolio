@@ -29,12 +29,18 @@ const Header = () => {
         </ul>
       </div>
       <div className="hidden xl:block">
-        <button className="h-10 bg-iconic-green rounded-full w-52 flex items-center justify-center  hover:bg-text-color hover:text-main-background">
+        <a
+          href="./Neel_Chikhal.pdf"
+          download="Neel_Chikhal.pdf"
+          className="h-10 bg-iconic-green rounded-full w-52 flex items-center justify-center  hover:bg-text-color hover:text-main-background"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BiDownload />
-          <a href="./Neel_Chikhal.pdf" download="Neel_Chikhal.pdf">
+          <button>
             <p className="px-1">{data.header.resume}</p>
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </header>
   );

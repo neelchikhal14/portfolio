@@ -72,11 +72,17 @@ const ComprehensiveView = ({ exp }: { exp: any }) => {
         </div>
       </div>
       <div className="flex justify-around mt-8">
-        <div className="flex flex-col items-center justify-center w-20 h-10 rounded-full bg-text-color text-black   text-center hover:cursor-pointer  hover:bg-black  hover:text-white text-base sm:text-lg md:text-xl md:w-24">
-          <button onClick={() => handleChangeExp("previous")}>Previous</button>
+        <div
+          onClick={() => handleChangeExp("previous")}
+          className="flex flex-col items-center justify-center w-20 h-10 rounded-full bg-text-color text-black   text-center hover:cursor-pointer  hover:bg-black  hover:text-white text-base sm:text-lg md:text-xl md:w-24"
+        >
+          <button>Previous</button>
         </div>
-        <div className="flex flex-col items-center justify-center w-20 h-10 rounded-full bg-text-color text-black  text-center hover:cursor-pointer hover:bg-black   hover:text-white text-base sm:text-lg md:text-xl md:w-24">
-          <button onClick={() => handleChangeExp("next")}>Next</button>
+        <div
+          onClick={() => handleChangeExp("next")}
+          className="flex flex-col items-center justify-center w-20 h-10 rounded-full bg-text-color text-black  text-center hover:cursor-pointer hover:bg-black   hover:text-white text-base sm:text-lg md:text-xl md:w-24"
+        >
+          <button>Next</button>
         </div>
       </div>
     </section>
