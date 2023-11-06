@@ -25,6 +25,9 @@ const config: Config = {
         threeBarMenuAnimate: "threeBarMenuKF 0.5s ease-out",
         smoothUnderlineAnimate: "smoothUnderlineKF 0.55s ease-in-out forwards",
       },
+      gridTemplateRows: {
+        template_rows_auto_1fr: "auto 1fr",
+      },
       keyframes: {
         threeBarMenuKF: {
           "0%": {

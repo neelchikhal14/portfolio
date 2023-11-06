@@ -51,7 +51,9 @@ const ExperienceViews = () => {
           </button>
         </div>
       </div>
-      {selectedView === "timeline" ? null : ( // <TimelineView exp={exp} />
+      {selectedView === "timeline" ? (
+        <TimelineView exp={exp} />
+      ) : (
         <ComprehensiveView exp={expWithOnlyJobs} />
       )}
     </div>
