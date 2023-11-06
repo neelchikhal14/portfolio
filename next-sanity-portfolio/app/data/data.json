@@ -20,10 +20,6 @@
         "path": "/skills"
       },
       {
-        "name": "Blogs",
-        "path": "/blogs"
-      },
-      {
         "name": "Future Learning Goals",
         "path": "/future-learning"
       }
